@@ -1,0 +1,170 @@
+body{
+	font-family: courier;
+	font-weight: 900;	
+	overflow-x: hidden;
+}
+
+h2{
+	margin: 100px 0;
+	text-align: center;
+	font-size: 3em;
+}
+p{
+	text-indent: 30px;
+	font-size: 1.5em;
+}
+
+a{
+	font-size: 1.2em;
+	text-decoration: none;
+}
+a:hover{
+	color:red;
+}
+img{
+	margin: 0 auto;
+	display: block;
+	max-width: 80%;
+}
+ul{
+	margin-bottom: 0;
+}
+
+#navbar{
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 1000;
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	padding: 0;
+}
+
+#navbar li{
+	float: left;
+	list-style-type: none;
+	padding-left: 10px;
+	font-size: 1em;
+	margin:15px;
+
+}
+
+#header{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/header_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+}
+#header a{
+	padding-left: 0;
+}
+
+.jumbotron{
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-bottom: 0;
+}
+
+.jumbotron h1{
+	margin: 20% 0 0 0;
+}
+
+.cont{
+	margin: -48px 0 0 0;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.7) ;
+}
+
+#subject{
+	min-height: 100vh;
+	background: url(../img/subject_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+#subject ul{
+	padding: 120px 180px;
+}
+
+#subject li{
+	margin-top: 25px;
+	margin-left: 50px;
+	list-style: none;
+}
+#subject a{
+	text-decoration: none;
+	color: #000;
+	font-size: 2em;
+}
+
+#subject a:hover{
+	color: red;
+}
+
+
+#task{
+	padding: 100px;
+	color: #fff;
+	background-color: #2E2D32;
+}
+#task h2{
+	margin-top: 0px;
+	margin-bottom: 100px;
+	text-align: center;
+	font-size: 3em;
+
+}
+
+.text{ 
+	font-size: 1.5em;
+	line-height: 2;
+ }
+ .hack{
+ 	padding: -100px;
+ 	min-height: 100vh;
+	
+ }
+
+
+#excel h2{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+#excel img{
+	margin: 0 auto;
+	display: block;
+	max-width: 80%;
+}
+
+#access{
+	background-color: #2E2D32;
+	color: #fff;
+}
+
+
+
+#report{
+	background-color: #2E2D32;
+	color: #fff;
+}
+
+#report li{
+	font-size: 1.5em;	
+}
+
+#report h2{
+	margin: 110px 0 60px;
+}
+
+#calculator{
+	height: 100vh;
+}
+
+#calculator h2{
+	margin: 100px 0;
+}
+#calculator form{
+	margin: 50px;
+	font-size: 2em;
+}
+#calculator input{
+	margin: 20px 0;
+}
